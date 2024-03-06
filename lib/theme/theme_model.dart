@@ -10,7 +10,7 @@ class ThemeModel extends ChangeNotifier {
   ThemeData get themeData => _themeData;
 
   //is current theme dark mode
-  bool get isDarkMode => _themeData == darkMode;
+  bool get isDarkMode => _themeData == lightMode;
 
   //set theme
   set themeData(ThemeData themeData) {
